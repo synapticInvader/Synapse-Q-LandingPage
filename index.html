@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synapse-Q - AI-Powered Data Intelligence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #ffffff;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #291806;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+            color: #333;
+        }
+        .hero-content {
+            max-width: 50%;
+        }
+        .hero h1 {
+            font-size: 42px;
+            font-weight: 600;
+            color: #009688;
+        }
+        .cta {
+            background: #009688;
+            color: #ffffff;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .cta.secondary {
+            background: #4caf50;
+        }
+        .overview, .showcase, .investor, .contact {
+            text-align: center;
+            padding: 50px;
+            background: #ffffff;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .feature-box {
+            background: #e0f7fa;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background: #009688;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Synapse-Q
+            </div>
+            <ul>
+                <li><a href="#waitlist">Join Waitlist</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Revolutionizing Data Insights with AI</h1>
+            <p>Ask questions in natural language and get instant insights from text, voice, images, and reports—without BI tools or SQL.</p>
+            <button class="cta">Join the Waitlist</button>
+            <button class="cta secondary">Apply for Pilot</button>
+        </div>
+    </section>
+
+    <section class="overview">
+        <h2>What is Synapse-Q?</h2>
+        <p>Synapse-Q is an AI-powered data intelligence platform that eliminates complexity in data analysis—just ask and get instant insights.</p>
+        <div class="features">
+            <div class="feature-box">Conversational AI</div>
+            <div class="feature-box">Multimodal Data Processing</div>
+            <div class="feature-box">Real-Time Analytics</div>
+            <div class="feature-box">Enterprise-Ready & Secure</div>
+        </div>
+    </section>
+
+    <section class="showcase">
+        <h2>🎤 Data Science Salon Showcase</h2>
+        <p>We’re pitching at Data Science Salon! Connect with us at the Startup Showcase.</p>
+        <button class="cta">Schedule a Meeting</button>
+    </section>
+
+    <section class="investor">
+        <h2>📢 Investors & Partners: Let’s Talk!</h2>
+        <p>We’re building the future of AI-driven data intelligence. If you’re interested in early investment, partnerships, or piloting Synapse-Q, reach out below.</p>
+        <button class="cta">Download Investor Deck</button>
+        <button class="cta secondary">Let’s Connect</button>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Synapse-Q. All rights reserved.</p>
+    </footer>
+</body>
+</html>
